@@ -4,5 +4,64 @@ html {
 }
 
 body.homepage {
-  background-image: url(imgs/DL&JL.jpg);
+  background-image: url(imgs/ihknk4odcsk91.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(0px);
+}
+
+body.season1 {
+  background-image: url(imgs/);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(0px);
+}
+
+body.season2 {
+  background-image: url(imgs/unnamed.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(0px);
+}
+
+body.season3 {
+  background-image: url(imgs/unnamed.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(0px);
+}
+
+body.season4 {
+  background-image: url(imgs/unnamed.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(0px);
+}
+
+body.season5 {
+  background-image: url(imgs/unnamed.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(0px);
+}
+
+body.season6 {
+  background-image: url(imgs/unnamed.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(0px);
 }
