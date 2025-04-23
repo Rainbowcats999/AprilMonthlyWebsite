@@ -12,6 +12,12 @@ body.homepage {
   backdrop-filter: blur(0px);
 }
 
+.btn-primary {
+  margin-bottom: 50%;
+  padding: bottom 50%;
+  height: 30%;
+}
+
 body.season1 {
   background-image: url(imgs/);
   background-repeat: no-repeat;
