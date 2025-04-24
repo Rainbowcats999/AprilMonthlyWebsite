@@ -1,9 +1,9 @@
-const audio = document.getElementById("myAudio");
+const themesong = new Audio("Cobrakaithemesong.mp4");
 
 function playAudio() {
-  audio.play();
+  themesong.play();
 }
 
 function pauseAudio() {
-  audio.pause();
+  themesong.pause();
 }
