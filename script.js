@@ -14,16 +14,27 @@ function pauseAudio() {
 const hiss = new Audio("hiss.mp3");
 
 window.onload = function () {
-  console.log("here");
+  let url = window.location.toString().split("/");
+  url = url[url.length - 1];
+  console.log(url);
+  let destination;
+  switch (url) {
+    case "season1.html":
+      destination = "s1";
+    case "season2.html":
+      destination = "s2";
+    case "season3.html":
+      destination = "s3";
+    case "season4.html":
+      destination = "s4";
+    case "season5.html":
+      destination = "s5";
+    case "season6.html":
+      destination = "s6";
+  }
   type(
-    `In season one of Cobra Kai, thirty years after their rivalry, Johnny Lawrence
-            and Daniel
-            LaRusso are reintroduced as adults with conflicting paths. Johnny, struggling with his past, reopens the
-            Cobra Kai dojo, while Daniel runs a successful business. Johnny's Cobra Kai students are initially bullied
-            outcasts, but they eventually become arrogant and aggressive, embracing the "No Mercy" mantra. The season
-            culminates in the All Valley Under-18 Karate Tournament, where Johnny and Daniel's students compete,
-            reigniting their rivalry.`,
-    document.getElementById("s1")
+    `Cobra Kai Season 1 follows Johnny Lawrence as he reopens the Cobra Kai dojo 33 years after the events of the 1984 All Valley Karate Tournament, reigniting his rivalry with Daniel LaRusso. Johnny's struggles with self-destruction and a desire for redemption are intertwined with his efforts to build a new generation of Cobra Kai students, including Miguel Diaz. Daniel, now a successful car dealership owner, is initially disturbed by the dojo's reopening and faces his own challenges as he navigates his family life and the resurgence of his old rivalry.`,
+    document.getElementById(destination)
   );
 };
 
