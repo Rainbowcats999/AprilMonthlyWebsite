@@ -20,6 +20,10 @@ window.onload = function () {
   let destination;
   let text;
   switch (url) {
+    case "index.html":
+      destination = "s0";
+      text = `Are you ready to dive in?`;
+      break;
     case "season1.html":
       destination = "s1";
       text = `Cobra Kai Season 1 follows Johnny Lawrence as he reopens the Cobra Kai dojo 33 years after the events of the 1984 All Valley Karate Tournament, reigniting his rivalry with Daniel LaRusso. Johnny's struggles with self-destruction and a desire for redemption are intertwined with his efforts to build a new generation of Cobra Kai students, including Miguel Diaz. Daniel, now a successful car dealership owner, is initially disturbed by the dojo's reopening and faces his own challenges as he navigates his family life and the resurgence of his old rivalry.`;
