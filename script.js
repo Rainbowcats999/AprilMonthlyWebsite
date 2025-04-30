@@ -22,7 +22,7 @@ window.onload = function () {
   switch (url) {
     case "index.html":
       destination = "s0";
-      text = `Are you ready to dive in?`;
+      text = `Are you ready to dive in? 📢!!!SPOILER ALERT!!!📢 If you didn't watch the show this is gonna spoil it Click here! ⬇️`;
       break;
     case "season1.html":
       destination = "s1";
