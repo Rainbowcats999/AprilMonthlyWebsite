@@ -17,7 +17,7 @@
 <body class="season1">
     <header>
         <!-- place navbar here -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Choose a season</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -47,8 +47,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="season6.html">Season VI</a>
-                        <li class="nav-item">
-                            <a class="nav-link" href="game.html">Game time!</a>
                     </ul>
                 </div>
             </div>
@@ -56,7 +54,7 @@
     </header>
     <main>
 
-        <h1 style="color:white">Season 1:</h1>
+        <h1 class="text-center season-title">Season 1:</h1>
 
         <div class="container">
             <div class="row">
@@ -65,10 +63,10 @@
                 </div>
             </div>
         </div>
-        <h3 id="s1" style="color:white"></h3>
+        <h3 id="s1" class="description text-center"></h3>
 
         <div class="text-center">
-            <video width="1120" height="840" controls>
+            <video controls>
                 <source src="videoplayback.mp4" type="video/mp4">
                 Your browser does not support the video tag.
 
@@ -79,8 +77,8 @@
 
 
         <div class="d-grid gap-2 col-6 mx-auto">
-            <button class="btn btn-primary text-center" type="button"
-                onclick="window.location.href='season2.html';">Season 2 → </button>
+            <button class="btn text-center" type="button" onclick="window.location.href='season2.html';">Season 2 →
+            </button>
         </div>
 
         <audio autoplay>

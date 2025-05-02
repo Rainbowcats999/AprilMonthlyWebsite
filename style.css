@@ -3,6 +3,11 @@ html {
   width: 100%;
 }
 
+.navbar {
+  background: yellow;
+  padding: 25px 0;
+}
+
 body.homepage {
   background: linear-gradient(235deg, #000000, #060c21, #000000);
   background-repeat: no-repeat;
@@ -12,10 +17,21 @@ body.homepage {
   backdrop-filter: blur(0px);
 }
 
-.btn-primary {
-  margin-bottom: 50%;
+.btn {
+  background: red;
+  margin: 10% auto;
   padding: bottom 50%;
-  height: 30%;
+  width: 300px;
+  height: 100px;
+}
+
+.btn:hover {
+  background: rgb(194, 0, 0);
+  color: white;
+}
+
+.btn:active {
+  background: rgb(150, 0, 0) !important;
 }
 
 body.season1 {
@@ -92,25 +108,6 @@ body.game {
   fill: black;
 }
 
-img.cobralogo {
-  height: 700px;
-  width: 700px;
-}
-
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-30px);
-  }
-}
-
-img.cobralogo {
-  animation: bounce 1s infinite;
-}
-
 @keyframes bounce {
   0%,
   20%,
@@ -128,16 +125,19 @@ img.cobralogo {
 }
 
 .cobralogo {
-  animation: bounce 2s infinite;
-}
-
-.cobralogo {
-  animation: bounce 2s infinite;
+  width: clamp(400px, 40vw, 700px);
+  animation: bounce 1.25s infinite;
   animation-timing-function: ease-in-out;
 }
 
-h3 {
+.season-title {
+  color: white;
+  padding: 50px 0;
+}
+
+.description {
   font-family: "nothing", sans-serif;
+  color: white;
   font-weight: 400;
   font-style: normal;
   margin-left: 20%;
@@ -147,57 +147,10 @@ h3 {
 }
 
 video {
-  border: white;
+  border: white solid 5px;
+  width: 1000px;
 }
 
 video:border {
- border-radius:50%;
-}
-
-/*
-
-.text-center {
-  padding: 20px;
-}
-
-.text-center video {
-  position: relative;
-  background-color: #060c21;
-  width: 300px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-}
-
-.text-center.before {
-  content: "";
-  position: absolute;
-  background-color: #fff;
-  top: -2px;
-  right: -2px;
-  left: -2px;
-  bottom: -2px;
-  z-index: -1;
-}
-
-.text-center:after {
-  content: "";
-  position: absolute;
-  background-color: #fff;
-  top: -2px;
-  right: -2px;
-  left: -2px;
-  bottom: -2px;
-  z-index: -2;
-  filter: blur(40px);
-}
-
-.text-center:after,
-.box:before {
-  background: linear-gradient(235deg, #832e2e, #060c21, #cf1f1f);
-}
-
-video {
-  width: 1120px;
-  height: 840px;
+  border-radius: 50%;
 }
